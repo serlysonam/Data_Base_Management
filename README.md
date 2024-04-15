@@ -38,9 +38,5 @@ Business Rules:
 •	An employee might be in zero or one crew.
 •	A crew can have one to many employees.
 
-
-![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/4cceb434-579f-4f44-b0b0-bc7c81542934)
-
-
 ![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/539c6305-48fd-4a55-ab30-5cf729b66316)
 
