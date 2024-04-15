@@ -555,3 +555,6 @@ JOIN crew cr
 ON cr.crew_no = e.crew_no;
 
 -- (Using Oracle Apex, design and develop a “front-end interface” (i.e., Forms and Reports), that meets all the requirements from the “inherited” project case.
+I have inherited the Financial Loan Case and developed the front-end interface with oracle Apex.
+
+-- You can see a Demo of my Working interface here:
