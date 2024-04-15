@@ -553,4 +553,3 @@ JOIN employee e
 ON e.employee_id = la.employee_id
 JOIN crew cr
 ON cr.crew_no = e.crew_no;
-![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/1d1ed243-391f-4d09-923b-27ba604b0264)
