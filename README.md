@@ -525,6 +525,32 @@ INSERT INTO invoice (invoice_no, proposal_no, invoice_date, start_date, end_date
 VALUES 
 ('INV010', 10, TO_DATE('2024-04-25', 'YYYY-MM-DD'), TO_DATE('2024-04-20', 'YYYY-MM-DD'), TO_DATE('2024-04-30', 'YYYY-MM-DD'), 'Server Room', 6000.00, TO_DATE('2024-04-30', 'YYYY-MM-DD'), 5400.00, 540.00, 5940.00);
 
-![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/d60421d4-463c-43f8-9ed4-fc0b0c8fcd87)
+Technical Manual (report) for DB backend: 
+Single table query:
+SELECT * FROM customer;
+2- table query:
+SELECT customer_name, customer_type
+FROM customer c
+LEFT JOIN proposal p 
+ON c.customer_no = p.customer_no;
 
+SELECT task_description, amount,est_hours
+FROM task t
+FULL OUTER JOIN proposal p 
+ON t.task_id = p.task_id;
 
+SELECT material_id, start_date, finish_date
+FROM work_assignment ma
+FULL OUTER JOIN work_assignment wa
+ON ma.material_id = wa.material_id;
+
+3- table query:
+SELECT wa.start_date, wa.finish_date, e.employee_id, wa.location_name,cr.crew_no
+FROM work_assignment wa
+JOIN labor_assignment la
+ON la.labor_assignment_id = wa.labor_assignment_id
+JOIN employee e
+ON e.employee_id = la.employee_id
+JOIN crew cr
+ON cr.crew_no = e.crew_no;
+![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/1d1ed243-391f-4d09-923b-27ba604b0264)
