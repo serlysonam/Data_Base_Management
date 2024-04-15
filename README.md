@@ -1,7 +1,7 @@
 # Data_Base_Management
 End to end Project (Using Oracle Database, fully design, implement, and document a database “backend” solution, as per specifications posted in the insulation unlimited case.
 
--- You can see a Demo of my Working Oracle below:
+-- You can see a Demo of my Working Oracle here:
 https://youtu.be/iYCD8FwwiQ4
 
 -- A final version of the Business Rules and ERD for the case.
