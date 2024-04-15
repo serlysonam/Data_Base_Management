@@ -1,5 +1,5 @@
 # Data_Base_Management
-End to end Project
+End to end Project (Using Oracle Database, fully design, implement, and document a database “backend” solution, as per specifications posted in the insulation unlimited case.
 
 -- You can see a Demo of my Working Oracle below:
 https://youtu.be/iYCD8FwwiQ4
@@ -553,3 +553,5 @@ JOIN employee e
 ON e.employee_id = la.employee_id
 JOIN crew cr
 ON cr.crew_no = e.crew_no;
+
+-- (Using Oracle Apex, design and develop a “front-end interface” (i.e., Forms and Reports), that meets all the requirements from the “inherited” project case.
