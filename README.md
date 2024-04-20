@@ -558,3 +558,5 @@ ON cr.crew_no = e.crew_no;
 I have inherited the Financial Loan Case and developed the front-end interface with oracle Apex.
 
 -- You can see a Demo of my Working interface here:
+https://www.youtube.com/watch?v=_k--6SXZd_M![image](https://github.com/serlysonam/Data_Base_Management/assets/47883763/a71873d3-b9e0-41d9-8544-360491b2da67)
+
